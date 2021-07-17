@@ -1,8 +1,12 @@
 import { useHistory } from 'react-router-dom';
 import { FormEvent, useState } from 'react';
 
-import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg';
+import illustrationImg from '../assets/images/illustration.svg';
+
+//antiga logo
+//import logoImg from '../assets/images/logo.svg';
+import newlogo from '../assets/images/newlogo.svg';
+
 import googleIconImg from '../assets/images/google-icon.svg';
 
 import { database } from '../services/firebase';
@@ -65,7 +69,7 @@ ClassName main-content -> no seu button tem um espaço em caracter especial 'alt
       </aside>
       <main>
         <div className="main-content">
-          <img src={logoImg} alt="Letmeask" />
+          <img src={newlogo} alt="open_feedback" />
           <button onClick={handleCreateRoom} className="create-room">
             <img src={googleIconImg} alt="Logo do Google" />
              Crie sua sala com o Google

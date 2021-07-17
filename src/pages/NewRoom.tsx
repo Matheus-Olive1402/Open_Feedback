@@ -1,12 +1,15 @@
-import { Link, useHistory } from 'react-router-dom'
-import {FormEvent, useState} from 'react'
+import { Link, useHistory } from 'react-router-dom';
+import {FormEvent, useState} from 'react';
 
-import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg'
+import illustrationImg from '../assets/images/illustration.svg';
 
-import {Button} from '../components/Button'
-import {database} from '../services/firebase'
-import {useAuth} from '../hooks/useAuth'
+//antiga logo
+//import logoImg from '../assets/images/logo.svg';
+import newlogo from '../assets/images/newlogo.svg';
+
+import {Button} from '../components/Button';
+import {database} from '../services/firebase';
+import {useAuth} from '../hooks/useAuth';
 
 import '../styles/auth.scss';
 
@@ -41,7 +44,7 @@ export function NewRoom(){
             </aside>
             <main>
                 <div className="main-content">
-                    <img src={logoImg} alt="Leatmeask" />
+                <img src={newlogo} alt="open_feedback" />
                     <h2>Criar uma nova sala</h2>
                     <form onSubmit={handleCreateRoom}>
                         <input  
