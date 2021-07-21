@@ -4,7 +4,162 @@
     align-items: stretch;
     height: 100vh;
 
-    @media screen and (max-device-width: 1024px) and (min-device-width: 768px){
+    @media screen and (max-device-width: 374px){
+        //imagem ao lado esquedo da tela
+            aside {
+                flex: 7;
+                font-size:100%;
+    
+                background: #ea4335;
+                color: #fff;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                padding: 120px 88px;
+    
+                img{
+                    max-width:  65%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+    
+                p{
+                    font-size: 1.1em;
+                }
+    
+                strong{
+                    font-size: 1.3em;
+                }
+            }
+    
+            img{
+                max-width:  180px;
+            }
+    
+            strong{
+                font: 700 36px 'Poppins', sans-serif;
+                line-height: 42px;
+                margin-top: 16px;
+            }
+    
+            p {
+                font-size: 24px;
+                line-height: 32px;
+                margin-top:16px;
+                color: #f8f8f8;
+            }
+            main{
+                flex: 8;
+    
+                padding: 0 32px;
+    
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    
+            .main-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                max-width: 310px;
+                align-items: stretch;
+                text-align: center;
+                margin-bottom: 10%;
+    
+                >img{
+                    align-self: center;
+                }
+    
+                h2{
+                    font-size: 24px;
+                    margin: 64px 0 24px 0;
+                    font-family: 'Poppins', sans-serif;
+                }
+    
+                form {
+                    input{
+                        height: 35px;
+                        border-radius: 8px;
+                        padding: 0 16px;
+                        background: #fff;
+                        border: 1px solid #a8a8b3;
+                    }
+    
+                    button{
+                        margin-top: 16px;
+                    }
+    
+                    button, input{
+                        width: 100%;
+                    }
+                }
+    
+                p{
+                    font-size: 14px;
+                    color: #737380;
+                    margin-top: 16px;
+                }
+    
+                a{ 
+                    color: #000;
+                }
+            }
+            .create-room{
+                margin-top: 30px;
+                height: 35px;
+                border-radius: 8px;
+                font-weight: 500;
+                background: #ea4335;
+                color: #fff;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                cursor: pointer;
+                border: 0;
+    
+                transition: filter 0.2s;
+    
+                img {
+                    margin-left: 8px;
+                }
+                &:hover{
+                    filter: brightness(0.9);
+                }
+    
+            }
+            .separator{
+                font-size: 12px;
+                color: #a8a8b3;
+    
+                margin: 26px 0;
+                display: flex;
+                align-items: center;
+    
+                &::before{
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background: #a8a8b3;
+                    margin-right: 16px;
+    
+                }
+                &::after{
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background: #a8a8b3;
+                    margin-right: 16px;
+                }
+            }
+    }
+
+   @media screen and (max-device-width: 767px) and (min-device-width: 375px){
     //imagem ao lado esquedo da tela
         aside {
             flex: 7;
@@ -68,6 +223,162 @@
             max-width: 310px;
             align-items: stretch;
             text-align: center;
+            margin-bottom: 10%;
+
+            >img{
+                align-self: center;
+            }
+
+            h2{
+                font-size: 24px;
+                margin: 64px 0 24px 0;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            form {
+                input{
+                    height: 35px;
+                    border-radius: 8px;
+                    padding: 0 16px;
+                    background: #fff;
+                    border: 1px solid #a8a8b3;
+                }
+
+                button{
+                    margin-top: 16px;
+                }
+
+                button, input{
+                    width: 100%;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: #737380;
+                margin-top: 16px;
+            }
+
+            a{ 
+                color: #000;
+            }
+        }
+        .create-room{
+            margin-top: 30px;
+            height: 35px;
+            border-radius: 8px;
+            font-weight: 500;
+            background: #ea4335;
+            color: #fff;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+            border: 0;
+
+            transition: filter 0.2s;
+
+            img {
+                margin-left: 8px;
+            }
+            &:hover{
+                filter: brightness(0.9);
+            }
+
+        }
+        .separator{
+            font-size: 12px;
+            color: #a8a8b3;
+
+            margin: 26px 0;
+            display: flex;
+            align-items: center;
+
+            &::before{
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: #a8a8b3;
+                margin-right: 16px;
+
+            }
+            &::after{
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: #a8a8b3;
+                margin-right: 16px;
+            }
+        }
+    } 
+
+    @media screen and (max-device-width: 1023px) and (min-device-width: 768px){
+    //imagem ao lado esquedo da tela
+        aside {
+            flex: 7;
+            font-size:100%;
+
+            background: #ea4335;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 120px 88px;
+
+            img{
+                max-width:  65%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p{
+                font-size: 1.1em;
+            }
+
+            strong{
+                font-size: 1.3em;
+            }
+        }
+
+        img{
+            max-width:  180px;
+        }
+
+        strong{
+            font: 700 36px 'Poppins', sans-serif;
+            line-height: 42px;
+            margin-top: 16px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            margin-top:16px;
+            color: #f8f8f8;
+        }
+        main{
+            flex: 8;
+
+            padding: 0 32px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 310px;
+            align-items: stretch;
+            text-align: center;
+            margin-bottom: 10%;
 
             >img{
                 align-self: center;
