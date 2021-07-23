@@ -10,7 +10,8 @@
         align-items: center;
 
         h1{
-          margin-left: 44%;
+          margin-left: 0%;
+          font-size: 25px;
         }
 
         h3{
@@ -41,9 +42,11 @@
     }
 
     main {
-      max-width: 900px;
+      max-width: 276px;
       margin: 0 auto;
       margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 12px;
 
       .room-title {
         margin: 32px 0 24px;
@@ -70,12 +73,12 @@
         align-items: center;
 
         h1{
-          margin-left: 44%;
+          margin-left: 0%;
         }
 
         h3{
-          height: 40px;
-          width: 150px;
+          height: 35px;
+          width: 100px;
           border-radius: 8px;
           font-weight: 500;
           background: #000;
@@ -101,9 +104,11 @@
     }
 
     main {
-      max-width: 900px;
+      max-width: 329px;
       margin: 0 auto;
+      font-size: 12px;
       margin-top: 20px;
+      margin-bottom: 20px;
 
       .room-title {
         margin: 32px 0 24px;
@@ -161,9 +166,10 @@
     }
 
     main {
-      max-width: 900px;
+      max-width: 686px;
       margin: 0 auto;
       margin-top: 20px;
+      margin-bottom: 20px;
 
       .room-title {
         margin: 32px 0 24px;

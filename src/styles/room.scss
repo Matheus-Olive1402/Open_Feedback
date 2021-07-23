@@ -12,12 +12,15 @@
         align-items: center;
   
         > img {
-          max-height: 45px;
+          max-height: 37px;
+          margin-right: 3px;
         }
 
         > div{
           display: flex;
-          gap: 16px;
+          gap: 3px;
+          display: flex;
+          align-items: center;
         }
 
         > button {
@@ -122,7 +125,7 @@
 //em processo
   @media screen and (max-device-width: 767px) and (min-device-width: 375px){
     header {
-      padding: 12px;
+      padding: 10px;
       border-bottom: 1px solid #e2e2e2;
   
       .content {
@@ -137,7 +140,7 @@
 
         > div{
           display: flex;
-          gap: 16px;
+          gap: 9px;
         }
 
         > button {
