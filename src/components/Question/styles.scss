@@ -1,6 +1,6 @@
 .question {
 
-  @media screen and (max-device-width: 374px){
+  @media only screen and (max-device-width: 374px){
     background: #fefefe;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
@@ -85,7 +85,7 @@
     }
   }
 
-  @media screen and (max-device-width: 767px) and (min-device-width: 375px){
+  @media only screen and (max-device-width: 767px) and (min-device-width: 375px){
     background: #fefefe;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
@@ -170,7 +170,7 @@
     }
   }
 
-  @media screen and (max-device-width: 1023px) and (min-device-width: 768px){
+  @media only screen and (max-device-width: 1023px) and (min-device-width: 768px){
     background: #fefefe;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
@@ -254,7 +254,7 @@
     }
   }
 
-  @media screen and (min-width: 1024px){
+  @media only screen and (min-device-width: 1024px){
     background: #fefefe;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);

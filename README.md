@@ -25,7 +25,7 @@
 
 ## Status do projeto 🔧
 <h4 align="center"> 
-	🚧  Open Feedback Finalizado 🚀  🚧 <br>
+	🚧  Open Feedback quase Finalizado... 🚀  🚧 <br>
 </h4>
 
 ---
@@ -63,8 +63,11 @@ $ cd Open_Feedback
 # Instale as dependências
 $ npm install
 
+# instale o yarn
+$ npm install --global yarn
+
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ yarn start
 
 # A aplicação será aberta na porta:local (pode variar de maquina para maquina)
 

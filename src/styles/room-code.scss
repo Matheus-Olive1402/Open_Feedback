@@ -1,5 +1,5 @@
 .room-code{
-    @media screen and (max-device-width: 374px){
+    @media only screen and (max-device-width: 374px){
         height: 37px;
         border-radius: 8px;
         overflow: hidden;
@@ -29,7 +29,7 @@
         }
     }
 
-    @media screen and (max-device-width: 767px) and (min-device-width: 375px){
+    @media only screen and (max-device-width: 767px) and (min-device-width: 375px){
         height: 40px;
         border-radius: 8px;
         overflow: hidden;
@@ -59,7 +59,7 @@
         }
     }
 
-    @media screen and (max-device-width: 1023px) and (min-device-width: 768px){
+    @media only screen and (max-device-width: 1023px) and (min-device-width: 768px){
         height: 40px;
         border-radius: 8px;
         overflow: hidden;
@@ -89,7 +89,7 @@
         }
     }
 
-    @media screen and (min-width: 1024px){
+    @media only screen and (min-device-width: 1024px){
         height: 40px;
         border-radius: 8px;
         overflow: hidden;
@@ -118,11 +118,5 @@
             font-weight: 500;
         }
     }
-
-
-
-
-
-
 
 }
