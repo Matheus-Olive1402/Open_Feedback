@@ -6,7 +6,6 @@
  <img alt="" src="https://img.shields.io/badge/feito%20pelo-Matheus-blue">
  </a>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Matheus-Olive1402/Open_Feedback">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Matheus-Olive1402/Open_Feedback">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Matheus-Olive1402/Open_Feedback">
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
