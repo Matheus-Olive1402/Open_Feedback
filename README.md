@@ -16,7 +16,7 @@
 ## Sobre o projeto 👨‍💻 
 <h4> Site de criação de salas com autenticação google para interações de usuário de forma simples. </h4>
 <p>
-    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+    <a href="https://site-open-feedback.netlify.app/">🔗 Exibição do site semi-pronto </a>
 </p>
 
 ---
@@ -25,7 +25,7 @@
 
 ## Status do projeto 🔧
 <h4 align="center"> 
-	🚧  Open Feedback quase Finalizado... 🚀  🚧 <br>
+	🚧  Open Feedback 99%p 🚀  🚧 <br>
 </h4>
 
 ---

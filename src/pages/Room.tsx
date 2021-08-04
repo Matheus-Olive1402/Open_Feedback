@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { useParams } from 'react-router-dom'
+import { useParams} from 'react-router-dom'
 
 //antiga logo
 //import logoImg from '../assets/images/logo.svg';
@@ -28,6 +28,8 @@ export function Room() {
   const roomId = params.id;
 
   const { title, questions } = useRoom(roomId)
+  
+
 
   async function handleSendQuestion(event: FormEvent) {
     event.preventDefault();
