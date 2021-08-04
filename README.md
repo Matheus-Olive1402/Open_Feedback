@@ -25,7 +25,7 @@
 
 ## Status do projeto 🔧
 <h4 align="center"> 
-	🚧  Open Feedback 99%p 🚀  🚧 <br>
+	🚧  Open Feedback 99% 🚀  🚧 <br>
 </h4>
 
 ---
