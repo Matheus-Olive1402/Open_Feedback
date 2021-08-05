@@ -7,7 +7,7 @@
  </a>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Matheus-Olive1402/Open_Feedback">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Matheus-Olive1402/Open_Feedback">
- <a href="https://github.com/Matheus-Olive1402/Filme_API/blob/main/LICENSE.md">
+ <a href="https://github.com/Matheus-Olive1402/Open_Feedback/blob/main/LICENSE.md">
  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
  </a>
 </p>
@@ -82,6 +82,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
+- [react-router-dom pacote](https://reactrouter.com/web/guides/quick-start)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Firebase](https://firebase.google.com/?hl=pt)
 - [Sass](https://sass-lang.com/)
