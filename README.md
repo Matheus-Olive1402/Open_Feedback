@@ -7,7 +7,9 @@
  </a>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Matheus-Olive1402/Open_Feedback">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Matheus-Olive1402/Open_Feedback">
-<img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+ <a href="https://github.com/Matheus-Olive1402/Filme_API/blob/main/LICENSE.md">
+ <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+ </a>
 </p>
 <br>
 
@@ -98,3 +100,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Estou sempre querendo aprender e busco oportunidades de me aperfeiçoar profissionalmente, estou sempre aberto a sugestões e dicas 😁, 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusoliveiradev/)](https://www.linkedin.com/in/matheusoliveiradev/) [![Outlook Badge](https://img.shields.io/badge/-matheus.olive1402@hotmail.com-blue?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheus.olive1402@hotmail.com)](mailto:matheus.olive1402@hotmail.com)
+---
+<br>
+
+## 📝 License
+This project lives under MIT License. See [LICENSE](LICENSE.md) for more details.
