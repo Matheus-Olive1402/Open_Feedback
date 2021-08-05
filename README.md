@@ -59,11 +59,11 @@ $ git clone git@github.com:Matheus-Olive1402/Open_Feedback.git
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd Open_Feedback
 
-# Instale as dependências
-$ npm install
-
 # instale o yarn
 $ npm install --global yarn
+
+# Instale as dependências
+$ yarn
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn start
